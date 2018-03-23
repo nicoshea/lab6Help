@@ -1,0 +1,21 @@
+.background    { background: url("https://pre00.deviantart.net/8636/th/pre/f/2014/153/7/a/armello_swamp_by_cyrilcorallo-d7kqesj.png");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+
+.background td { padding: 0;        }
+.water          { background: rgb(50, 100, 100); }
+.rock          { background: grey;}
+.floater         { background: white;border-radius: 100px; 
+}
+
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); 
+border-radius: 100px;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
